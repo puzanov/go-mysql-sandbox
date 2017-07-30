@@ -2,7 +2,7 @@ version: '2'
 services:
   mysql:
     ports:
-     - "3306:3306"
+     - "127.0.0.1:3306:3306"
     volumes:
      - /usr/local/opt/docker-volumes/mysql:/var/lib/mysql
     environment:
